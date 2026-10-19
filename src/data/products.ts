@@ -1,0 +1,271 @@
+import { Product } from '../types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'jumbo-makhana-6plus',
+    name: 'Jumbo Makhana (6+ Suta / 19mm - 24mm)',
+    hindiName: 'जंबो मखाना (६+ सूता)',
+    category: 'graded',
+    grade: 'Super Jumbo Grade AAA (6+ Suta)',
+    sizeSuta: '6+ Suta (19mm - 24mm)',
+    description: 'The pinnacle of Bihar Makhana. Specially sorted and double-sieved to retain only the largest, fluffiest, snow-white popped lotus seeds with negligible black hull remnants. Specially cultivated for luxury gift hampers, organic health stores, and discerning international supermarkets.',
+    packagingOptions: ['250g Zip Pouch', '500g Zip Pouch', '1kg Nitrogen Pouch', '5kg LDPE Bag', '10kg Poly Liner', '25kg Master Export Carton'],
+    moq: '500 Kilograms (or 1x20ft FCL for bulk export)',
+    shelfLife: '18 Months (Stored in cool, dry place away from direct sunlight)',
+    origin: 'Darbhanga & Madhubani Wetlands, Mithila, Bihar (GI Tagged Origin)',
+    imageUrl: '/src/assets/images/jumbo_makhana_6suta_1792343020360.jpg',
+    highlightBadge: 'Top Export Grade',
+    pricePerKgUSD: 16.5,
+    samplePriceUSD: 25.0,
+    specifications: {
+      moisture: 'Max 7.0%',
+      foreignMatter: 'Nil / Non-detectable (<0.01%)',
+      brokenPercentage: '< 1.5%',
+      proteinPer100g: '9.7 g',
+      fatPer100g: '0.1 g',
+      energyKcal: '347 kcal'
+    }
+  },
+  {
+    id: 'premium-graded-5suta',
+    name: 'Premium Graded Makhana (5+ Suta / 15mm - 18mm)',
+    hindiName: 'प्रीमियम मखाना (५+ सूता)',
+    category: 'graded',
+    grade: 'Export Standard Grade AA (5+ Suta)',
+    sizeSuta: '5+ Suta (15mm - 18mm)',
+    description: 'The standard commercial export grade for B2B distributors and repackagers. Uniform popped texture, brilliant off-white luster, and high expansion ratio. Popular across GCC, USA, and UK.',
+    packagingOptions: ['250g Pouch', '500g Pouch', '1kg Pouch', '5kg Foodservice Bag', '10kg Bag', '25kg Corrugated Box'],
+    moq: '1,000 Kilograms (Container loads available)',
+    shelfLife: '18 Months',
+    origin: 'Purnia & Katihar Riverine Belt, Bihar, India',
+    imageUrl: '/src/assets/images/makhana_hero_bowl_1792343020330.jpg',
+    highlightBadge: 'Global B2B Bestseller',
+    pricePerKgUSD: 13.8,
+    samplePriceUSD: 20.0,
+    specifications: {
+      moisture: 'Max 7.5%',
+      foreignMatter: '< 0.05%',
+      brokenPercentage: '< 3.0%',
+      proteinPer100g: '9.5 g',
+      fatPer100g: '0.15 g',
+      energyKcal: '345 kcal'
+    }
+  },
+  {
+    id: 'raw-sun-dried-makhana',
+    name: 'Raw Sun-Dried Phool Makhana (Unroasted Natural)',
+    hindiName: 'कच्चा फूल मखाना',
+    category: 'raw',
+    grade: 'Commercial Grade A (4-5 Suta)',
+    sizeSuta: 'Mixed 4 to 5 Suta (12mm - 16mm)',
+    description: 'Pure, completely unroasted and additive-free popped fox nuts direct from traditional earthen kilns and sun-drying beds. Packed in heavy-duty moisture-proof sacks for snack manufacturers and re-packers.',
+    packagingOptions: ['10kg Multilayer Sacks', '20kg HDPE Woven Bags', '25kg Vacuum Export Cartons'],
+    moq: '2,000 Kilograms (2 Metric Tons)',
+    shelfLife: '18 Months',
+    origin: 'Kosi-Seemanchal Wetlands, Bihar',
+    imageUrl: '/src/assets/images/raw_makhana_bulk_1792343021806.jpg',
+    highlightBadge: 'Direct Farm Sourced',
+    pricePerKgUSD: 11.5,
+    samplePriceUSD: 18.0,
+    specifications: {
+      moisture: 'Max 8.0%',
+      foreignMatter: '< 0.1%',
+      brokenPercentage: '< 5.0%',
+      proteinPer100g: '9.4 g',
+      fatPer100g: '0.2 g',
+      energyKcal: '342 kcal'
+    }
+  },
+  {
+    id: 'roasted-himalayan-salt-pepper',
+    name: 'Slow-Roasted Himalayan Pink Salt & Black Pepper',
+    hindiName: 'हिमालयन पिंक सॉल्ट रोस्टेड मखाना',
+    category: 'roasted',
+    grade: 'Ready-to-Eat Gourmet Snack (5+ Suta)',
+    sizeSuta: '5+ Suta',
+    flavorProfile: 'Mineral-rich Himalayan pink rock salt with freshly cracked Malabar black pepper, lightly misted with extra-virgin olive oil.',
+    description: 'Crispy, airy, guilt-free snacking perfection. Dry-roasted in small batches with low heat to preserve vital antioxidants and crunch. Zero trans fats, non-GMO, and 100% plant-based superfood snack.',
+    packagingOptions: ['70g On-the-go Pouch', '100g Nitrogen Nitrogen Jar', '250g Zip Stand-up', '1kg Family Bulk Pack'],
+    moq: '500 Retail Units (or 250 kg bulk)',
+    shelfLife: '12 Months',
+    origin: 'Processed at Jireh Clean Facility, Darbhanga, Bihar',
+    imageUrl: '/src/assets/images/roasted_spiced_makhana_1792343020761.jpg',
+    highlightBadge: 'Export B2B Snack',
+    pricePerKgUSD: 17.5,
+    samplePriceUSD: 15.0,
+    specifications: {
+      moisture: 'Max 4.0% (Extra Crisp)',
+      foreignMatter: 'Nil',
+      brokenPercentage: '< 1.0%',
+      proteinPer100g: '8.8 g',
+      fatPer100g: '4.5 g (Cold-Pressed EVOO)',
+      energyKcal: '392 kcal'
+    }
+  },
+  {
+    id: 'roasted-peri-peri-spicy',
+    name: 'Zesty Peri Peri Spice Popped Fox Nuts',
+    hindiName: 'पेरी पेरी मसालेदार मखाना',
+    category: 'flavored',
+    grade: 'Gourmet Snacking Grade',
+    sizeSuta: '5+ Suta',
+    flavorProfile: 'Tangy, spicy kick of African bird’s eye chili, garlic flakes, sweet paprika, and zesty lemon herb extract.',
+    description: 'An international crowd-pleaser created for modern consumers who love bold flavors. Clean-label seasonings without synthetic MSG or artificial colors. Highly exported to UAE, UK, and Australia.',
+    packagingOptions: ['70g Nitrogen Pouch', '150g Pet Canister', '250g Pouch', '5kg Foodservice Box'],
+    moq: '500 Retail Units (or 250 kg bulk)',
+    shelfLife: '12 Months',
+    origin: 'Bihar, India',
+    imageUrl: '/src/assets/images/makhana_peri_peri_1792343370914.jpg',
+    highlightBadge: 'Export Favorite',
+    pricePerKgUSD: 18.0,
+    samplePriceUSD: 16.0,
+    specifications: {
+      moisture: 'Max 4.2%',
+      foreignMatter: 'Nil',
+      brokenPercentage: '< 1.0%',
+      proteinPer100g: '8.5 g',
+      fatPer100g: '5.0 g',
+      energyKcal: '405 kcal'
+    }
+  },
+  {
+    id: 'roasted-sour-cream-onion',
+    name: 'Sour Cream & Chive Roasted Makhana',
+    hindiName: 'सॉवर क्रीम और अनियन मखाना',
+    category: 'flavored',
+    grade: 'Gourmet Snacking Grade',
+    sizeSuta: '5+ Suta',
+    flavorProfile: 'Smooth dairy creaminess combined with garden-fresh chives and caramelized sweet onion essence.',
+    description: 'A luxurious savory snack designed as an upscale alternative to traditional potato chips. 67% less fat, packed with plant protein and dietary fiber.',
+    packagingOptions: ['70g Pouch', '150g Canister', '250g Stand-up Pouch', '5kg Bulk Pack'],
+    moq: '500 Retail Units',
+    shelfLife: '12 Months',
+    origin: 'Bihar, India',
+    imageUrl: '/src/assets/images/makhana_sour_cream_1792343371102.jpg',
+    highlightBadge: 'Supermarket Hit',
+    pricePerKgUSD: 18.5,
+    samplePriceUSD: 16.0,
+    specifications: {
+      moisture: 'Max 4.0%',
+      foreignMatter: 'Nil',
+      brokenPercentage: '< 1.0%',
+      proteinPer100g: '8.6 g',
+      fatPer100g: '5.2 g',
+      energyKcal: '410 kcal'
+    }
+  },
+  {
+    id: 'roasted-pudina-mint-chaat',
+    name: 'Tangy Mint & Pudina Chaat Makhana',
+    hindiName: 'पुदीना चाट मखाना',
+    category: 'flavored',
+    grade: 'Gourmet Snacking Grade',
+    sizeSuta: '5+ Suta',
+    flavorProfile: 'Refreshing dried field mint, raw mango amchur, cumin, and rock salt with a crisp crunch.',
+    description: 'Infused with royal North-Indian street chaat spices, this tangy refreshing snack is a perennial favorite for evening teatime and cocktail pairings.',
+    packagingOptions: ['70g Pouch', '100g Jar', '250g Zip Pouch', '5kg Bag'],
+    moq: '500 Units',
+    shelfLife: '12 Months',
+    origin: 'Bihar, India',
+    imageUrl: '/src/assets/images/roasted_spiced_makhana_1792343020761.jpg',
+    pricePerKgUSD: 17.5,
+    samplePriceUSD: 15.0,
+    specifications: {
+      moisture: 'Max 4.0%',
+      foreignMatter: 'Nil',
+      brokenPercentage: '< 1.0%',
+      proteinPer100g: '8.7 g',
+      fatPer100g: '4.8 g',
+      energyKcal: '395 kcal'
+    }
+  },
+  {
+    id: 'organic-makhana-flour',
+    name: 'Pure Gluten-Free Makhana Flour (Milled Gorgon Nut)',
+    hindiName: 'शुद्ध मखाना आटा',
+    category: 'industrial',
+    grade: 'Extra Fine Mesh Milled (100-120 Mesh)',
+    sizeSuta: 'Fine Powder',
+    description: '100% pure fox nut powder ground from selected whole popped makhana. Rich in resistant starch, calcium, and plant protein. Extensively used by functional food manufacturers, baby food producers, gluten-free bakeries, and sports nutrition brands.',
+    packagingOptions: ['500g Vacuum Pouch', '1kg Kraft Zip Pouch', '5kg Foil Bag', '25kg Food-grade Fiber Drum'],
+    moq: '250 Kilograms',
+    shelfLife: '12 Months',
+    origin: 'Mithila, Bihar, India',
+    imageUrl: '/src/assets/images/makhana_flour_powder_1792343373110.jpg',
+    highlightBadge: 'Functional Food Ingredient',
+    pricePerKgUSD: 14.5,
+    samplePriceUSD: 22.0,
+    specifications: {
+      moisture: 'Max 6.5%',
+      foreignMatter: 'Nil',
+      brokenPercentage: 'N/A (Uniform Fine Mesh)',
+      proteinPer100g: '10.2 g',
+      fatPer100g: '0.2 g',
+      energyKcal: '350 kcal'
+    }
+  },
+  {
+    id: 'makhana-tukda-broken-pieces',
+    name: 'Makhana Tukda / Broken Pieces (Confectionery Grade)',
+    hindiName: 'मखाना टुकड़ा (हलवाई व बेकरी ग्रेड)',
+    category: 'industrial',
+    grade: 'Food Processor Clean Tukda',
+    sizeSuta: 'Broken Split (8mm - 12mm)',
+    description: 'Clean, sieve-sorted split pieces of popped makhana free from black hulls or dust. High-value cost-effective raw material for traditional Indian sweets (kheer, barfi), breakfast granolas, protein snack bars, and chocolate clusters.',
+    packagingOptions: ['10kg Foodservice Bag', '25kg Poly-lined Woven Sack'],
+    moq: '1,000 Kilograms (1 Metric Ton)',
+    shelfLife: '15 Months',
+    origin: 'Bihar, India',
+    imageUrl: '/src/assets/images/raw_makhana_bulk_1792343021806.jpg',
+    highlightBadge: 'Commercial Value Pack',
+    pricePerKgUSD: 8.9,
+    samplePriceUSD: 12.0,
+    specifications: {
+      moisture: 'Max 8.0%',
+      foreignMatter: '< 0.1%',
+      brokenPercentage: '100% Split pieces',
+      proteinPer100g: '9.3 g',
+      fatPer100g: '0.15 g',
+      energyKcal: '344 kcal'
+    }
+  }
+];
+
+export const PACKAGING_TYPES = [
+  {
+    id: 'retail-pouch',
+    title: 'Retail Stand-Up Zip Pouches',
+    sizes: '100g, 250g, 500g, 1kg',
+    type: 'Multi-layer Matte / Gloss BOPP with Nitrogen Flush',
+    bestFor: 'Supermarket Shelves, Gourmet Stores, Amazon / E-Commerce Brands',
+    features: ['High barrier against oxygen & humidity', 'Resealable airtight zipper', 'Custom gloss/matte finish with euro slot', 'Shelf life 12-18 months'],
+    imageUrl: '/src/assets/images/jireh_makhana_pouches_1792343893258.jpg'
+  },
+  {
+    id: 'pet-jars-canisters',
+    title: 'PET Jars & Composite Cans',
+    sizes: '100g, 150g, 200g, 400g',
+    type: 'Food-Grade Clear PET with Aluminium Easy-Open Lid',
+    bestFor: 'Gifting, Airport Stores, Office Snacking, Luxury Retail',
+    features: ['Crystal-clear visibility of large 6+ Suta kernels', 'Hermetically sealed ring-pull foil', 'Re-closable plastic cap', 'Stackable and premium aesthetic'],
+    imageUrl: '/src/assets/images/jireh_makhana_jars_1792343892733.jpg'
+  },
+  {
+    id: 'foodservice-bags',
+    title: 'Bulk Food-Service Barrier Bags',
+    sizes: '5kg, 10kg Vacuum Packs',
+    type: 'Heavy-gauge Food-Grade LDPE / Metalized Bags',
+    bestFor: 'Catering, Cloud Kitchens, Snack Re-Packers, Ayurvedic Pharmacies',
+    features: ['Durable heat-sealed barrier', 'Protects during inland transit', 'Zero oil oxidation', 'Efficient storage footprint'],
+    imageUrl: '/src/assets/images/raw_makhana_bulk_1792343021806.jpg'
+  },
+  {
+    id: 'export-master-cartons',
+    title: 'Export Master Corrugated Cartons',
+    sizes: '10kg, 20kg, 25kg Net Weight',
+    type: '7-Ply Heavy Duty Kraft Corrugated Boxes + Moisture Inner Liners',
+    bestFor: 'Ocean Freight FCL/LCL, Palletized Cargo, Air Cargo to GCC/USA/EU',
+    features: ['High burst strength (28+ PSI) for sea container stacking', 'Desiccant pouches inserted', 'Moisture-barrier inner poly-liner', 'Compliant with international phytosanitary standards'],
+    imageUrl: '/src/assets/images/makhana_export_carton_1792343021861.jpg'
+  }
+];

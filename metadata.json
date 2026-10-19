@@ -1,0 +1,6 @@
+{
+  "name": "Jireh Global Foods - Bihar Makhana Exporters & Wholesale",
+  "description": "Premier exporter, bulk supplier and private-label manufacturer of authentic Bihar Makhana (Fox Nuts / Gorgon Nut). APEDA, FSSAI, ISO 9001 certified global supply from the Mithila region.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
